@@ -66,7 +66,7 @@
                         xLabels: "day",
                         xLabelFormat: function(d) {
                             return ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov', 'Dec'][d.getMonth()] + ' ' + d.getDate();
-                        },
+                        }
                     });
                 });
             </script>
@@ -117,7 +117,7 @@
                         lineCap: 'square',
                         size: 90,
                         trackColor: '#e5e5e5'
-                    }
+                    };
                     $('#easy-pie-chart-1').easyPieChart($.extend({}, easyPieChartDefaults, {
                         barColor: PixelAdmin.settings.consts.COLORS[1]
                     }));
@@ -339,7 +339,7 @@
         <script>
             init.push(function () {
                 $('#dashboard-support-tickets .panel-body > div').slimScroll({ height: 300, alwaysVisible: true, color: '#888',allowPageScroll: true });
-            })
+            });
         </script>
         <!-- / Javascript -->
 
@@ -494,7 +494,7 @@
         <script>
             init.push(function () {
                 $('#dashboard-recent .panel-body > div').slimScroll({ height: 300, alwaysVisible: true, color: '#888',allowPageScroll: true });
-            })
+            });
         </script>
         <!-- / Javascript -->
 
