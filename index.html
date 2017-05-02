@@ -402,6 +402,7 @@ Use search to find needed section.
 	</div> <!-- / #main-menu -->
 <!-- /4. $MAIN_MENU -->
 
+
     <div id="content-wrapper" ms-html="@content">
     </div> <!-- / #content-wrapper -->
 
@@ -421,13 +422,6 @@ Use search to find needed section.
 <script src="assets/javascripts/bootstrap.min.js"></script>
 <script src="assets/javascripts/pixel-admin.min.js"></script>
 
-<script type="text/javascript">
-	init.push(function () {
-		// Javascript code here
-	});
-	window.PixelAdmin.start(init);
-</script>
-
 <script>
     if (!document.addEventListener) {
         document.write('<script src="libs/json3/json3.min.js"><\/script>');
@@ -439,6 +433,13 @@ Use search to find needed section.
 
 <script src="static/js/commons.js"></script>
 <script src="static/js/my.js"></script>
+
+<script type="text/javascript">
+    init.push(function () {
+        // Javascript code here
+    });
+    window.PixelAdmin.start(init);
+</script>
 
 </body>
 </html>
